@@ -8,7 +8,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 public class Test {
-
+	System.out.println("Main Method Started");
 	public static void main(String[] args) {
 		
 		Resource resource = new ClassPathResource("NewFile.xml");
