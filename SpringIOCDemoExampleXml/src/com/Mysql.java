@@ -1,19 +1,22 @@
 package com;
 
-public class Mysql  implements Example{
+public class MySql implements Demo{
 	
-	public Mysql() {
-		System.out.println("Mysql Constructor");
-	}
-	@Override
-	public void exON() {
-		System.out.println("Mysql Example ON");
+	public MySql() {
+		System.out.println("mysql constructor--");
 		
 	}
 
 	@Override
-	public void exOFF() {
-		System.out.println("Mysql Example OFF ");
+	public void deOn() {
+		System.out.println("MySql Demo On");
+		
+	}
+
+	@Override
+	public void deOff() {
+		System.out.println("MySql Demo Off");
+		
 	}
 
 }
